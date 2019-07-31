@@ -1,9 +1,19 @@
-
+.bg-logo{
+	background-image: url(../resources/section-background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
 .nav-link{
 	color: #fff;
 }
 .top-nav{
 	margin-right: 20px;
+	font-size: 20px;
+}
+.topnav a:hover{
+	text-shadow: .1rem;
+	text-decoration:none;
 }
 .logo-centered{
 	display: block;
@@ -34,18 +44,13 @@
 .site-section-img{
 	padding-right: 10px;
 }
-.site-section::after{
-	content: '';
-    position: absolute;
-    width: 100%;
-    height: 1px; // suit your need
-    background: black; // suit your need
-    top: 100%;
-    left: 0;
-}
 .flex-container{
 	display: flex;
 	/*justify-content: space-between;*/
+}
+.intro{
+	background-color: #8080802e;
+	padding: 40px;
 }
 .intro2{
 	display: flex;
