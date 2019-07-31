@@ -2,12 +2,20 @@
 <html lang="en">
 	<head>
 		<title>Basic Foundation Sample Site</title>
+		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Bootstrap css Links -->
 		<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="dist/css.css">
+		<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css.map">
 		<!-- Bootstrap javascript bundle link -->
-		<script type="text/javascript" src="dist/js/bootstrap.bundle.min.js"></script>
+		<!-- <script type="text/javascript" src="dist/js/bootstrap.bundle.min.js"></script>
+		<script type="text/javascript" src="dist/js/bootstrap.bundle.min.js.map"></script>
+		<script type="text/javascript" src="dist/js/src/carousel.js"></script> -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/f618f790f8.js"></script>
 	</head>
 	<body>
 		<div class="container-fluid">
@@ -18,7 +26,7 @@
 				</ul>
 			</div><br>
 			<div class="logo-brand">
-				<img class="centered" src="resources/BasicRockLogo.jpg">
+				<img class="logo-centered" src="resources/BasicRockLogo.jpg">
 			</div>
 		</div>
 		<div class="container-fluid bg-primary">
@@ -46,24 +54,165 @@
 				</li>
 			</ul>
 		</div>
-		<div class="container-fluid">
-			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<div class="container-fluid OR">
+			<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2000">
   				<ol class="carousel-indicators">
     				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    				<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    				<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    				<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    				<li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
   				</ol>
+
+  				<!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  				proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -->
   				<div class="carousel-inner">
-    				<div class="carousel-item active">
+    				<div class="carousel-item active ">
       					<img src="resources/basicfoundationschools.jpg" class="d-block w-100" alt="Basic Foundation Schools">
+      					<div class="centered">
+          					<div class="bg-primary-transparent">
+          						<p class="centered-content">
+          							<span class="h5">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</span><br>
+          							<span class="h5 small">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</span>
+          						</p>
+          					</div>
+          					<button type="button" class="btn btn-lg btn-bd"><a href="#">Request a Demo</a></button>
+        				</div>
     				</div>
     				<div class="carousel-item">
-      					<img src="resources/basicfoundationschoolssec.jpg" class="d-block w-100" alt="basic foundation school ssec">
+      					<img src="resources/the Woods Scholarship exam5.jpg" class="d-block w-100" alt="basic foundation school sec">
+      					<div class="centered">
+          					<div class="bg-primary-transparent">
+          						<p class="centered-content">
+          							<span class="h5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius</span><br>
+          							<span class="h5 small">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</span>
+          						</p>
+          					</div>
+          					<button type="button" class="btn btn-lg btn-bd"><a href="#">Request a Demo</a></button>
+        				</div>
     				</div>
     				<div class="carousel-item">
       					<img src="resources/Davis.jpg" class="d-block w-100" alt="...">
+      					<div class="centered">
+          					<div class="bg-primary-transparent">
+          						<p class="centered-content">
+          							<span class="h5">tempor incididunt ut labore et dolore magna aliqua. Ut enim </span><br>
+          							<span class="h5 small">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</span>
+          						</p>
+          					</div>
+          					<button type="button" class="btn btn-lg btn-bd"><a href="#">Request a Demo</a></button>
+        				</div>
+    				</div>
+    				<div class="carousel-item">
+      					<img src="resources/the Woods Scholarship exam2.jpg" class="d-block w-100" alt="basic foundation school sec">
+      					<div class="centered">
+          					<div class="bg-primary-transparent">
+          						<p class="centered-content">
+          							<span class="h5">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</span><br>
+          							<span class="h5 small">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</span>
+          						</p>
+          					</div>
+          					<button type="button" class="btn btn-lg btn-bd"><a href="#">Request a Demo</a></button>
+        				</div>
+    				</div>
+    				<div class="carousel-item">
+      					<img src="resources/the Woods Scholarship exam4.jpg" class="d-block w-100" alt="basic foundation school sec">
+      					<div class="centered">
+          					<div class="bg-primary-transparent">
+          						<p class="centered-content">
+          							<span class="h5">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</span><br>
+          							<span class="h5 small">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</span>
+          						</p>
+          					</div>
+          					<button type="button" class="btn btn-lg btn-bd"><a href="#">Request a Demo</a></button>
+        				</div>
+    				</div>
+    				<div class="carousel-item">
+      					<img src="resources/the Woods Scholarship exam8.jpg" class="d-block w-100" alt="basic foundation school sec">
+      					<div class="centered">
+          					<div class="bg-primary-transparent">
+          						<p class="centered-content">
+          							<span class="h5">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</span><br>
+          							<span class="h5 small">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</span>
+          						</p>
+          					</div>
+          					<button type="button" class="btn btn-lg btn-bd"><a href="#">Request a Demo</a></button>
+        				</div>
+    				</div>
+    				<div class="carousel-item">
+      					<img src="resources/the Woods Scholarship exam6.jpg" class="d-block w-100" alt="basic foundation school sec">
+      					<div class="centered">
+          					<div class="bg-primary-transparent">
+          						<p class="centered-content">
+          							<span class="h5">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</span><br>
+          							<span class="h5 small">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</span>
+          						</p>
+          					</div>
+          					<button type="button" class="btn btn-lg btn-bd"><a href="#">Request a Demo</a></button>
+        				</div>
     				</div>
   				</div>
+			</div>
+		</div>
+		<div class="container site-section">
+			<div class="row">
+				<div class="col-sm-3 flex-container site-section-item vl">
+					<div class="">
+						<img src="resources/icon-1.png" class="site-section-img">
+					</div>
+					<div>
+						<h3 class="C-1">5000+ Students</h3>
+					</div>
+				</div>
+				<div class="col-sm-3 flex-container site-section-item vl">
+					<div>
+						<img src="resources/icon-2.png" class="site-section-img">
+					</div>
+					<div>
+						<h3 class="C-1">Teachers</h3>
+					</div>
+				</div>
+				<div class="col-sm-3 flex-container site-section-item vl">
+					<div>
+						<img src="resources/icon-3.png" class="site-section-img">
+					</div>
+					<div>
+						<h3 class="C-1">Over 20 years</h3>
+					</div>
+				</div>
+				<div class="col-sm-3 flex-container site-section-item vl"><div>
+						<img src="resources/icon-4.png" class="site-section-img">
+					</div>
+					<div>
+						<h3 class="C-1">some text here</h3>
+					</div></div>
+			</div>
+		</div>
+		<div class="container intro">
+			<div class="Intro-text">
+				<h2>Welcome to <br><span style="color: #007bff; font-style: italic; font-size: 3rem;"><i class="fas fa-graduation-cap"></i> Basic Foundation School</span></h2>
+			</div>
+			<div class="row">
+				<div class=" col-sm-6 embed-responsive embed-responsive-16by9">
+  					<iframe class="embed-responsive-item" src="resources/rec.mp4" allowfullscreen></iframe>
+				</div>
+				<div class="col-sm-6">
+					<h2 class="font-weight-bolder text-sm-right C-1">The Leadership based Education In Aba</h2>
+					<p class="text-sm-justify lead font-weight-light">We welcome you to our website to see how a world-class education can shape your child’s learning in CHS. Our school provides an international atmosphere and our professional team nurtures and inspires our pupils to become learners for life. Every day a new lifelong learner is born. And every day, we inspire our pupils to seek knowledge.</p>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div>
+				<hr class="hr">
+				<h2>Our School</h2>
+				<hr class="hr">
 			</div>
 		</div>
 	</body>
